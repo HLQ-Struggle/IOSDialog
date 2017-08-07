@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="cn.hlq.iosdialog.MainActivity">
+
+    <Button
+        android:id="@+id/btn_alert_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog"/>
+
+    <Button
+        android:id="@+id/btn_android_loading_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="android普通加载框"/>
+
+    <Button
+        android:id="@+id/btn_ios_loading_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="仿IOS加载框"/>
+
+    <Button
+        android:id="@+id/btn_ios_hint_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="仿IOS提示框"/>
+
+    <Button
+        android:id="@+id/btn_ios_single_hint_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="仿IOS单个提示框"/>
+
+    <Button
+        android:id="@+id/btn_ios_camera_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="仿IOS拍照选取相册"/>
+
+</LinearLayout>

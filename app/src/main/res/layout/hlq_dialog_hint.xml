@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/shape_base_bg"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_hint_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="标题"
+        android:textColor="#333"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#20000000"/>
+
+    <TextView
+        android:id="@+id/tv_hint_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="我是内容我是内容我是内容"
+        android:textColor="#333"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#20000000"/>
+
+    <ViewStub
+        android:id="@+id/vs_single_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/item_dialog_single_hint"/>
+
+    <ViewStub
+        android:id="@+id/vs_double_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/item_dialog_hint"/>
+
+</LinearLayout>
