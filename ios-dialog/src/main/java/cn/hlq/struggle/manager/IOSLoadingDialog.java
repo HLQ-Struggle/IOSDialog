@@ -1,4 +1,4 @@
-package cn.hlq.iosdialog.manager;
+package cn.hlq.struggle.manager;
 
 import android.app.DialogFragment;
 import android.os.Bundle;
@@ -8,7 +8,8 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TextView;
 
-import cn.hlq.iosdialog.R;
+import cn.hlq.struggle.R;
+
 
 /**
  * Created by HLQ on 2017/7/31

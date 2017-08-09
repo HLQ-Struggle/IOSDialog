@@ -1,4 +1,4 @@
-package cn.hlq.iosdialog.manager;
+package cn.hlq.struggle.manager;
 
 import android.app.DialogFragment;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import cn.hlq.iosdialog.R;
+import cn.hlq.struggle.R;
 
 /**
  * 高仿IOS拍照 选择相册 Created by HLQ on 2017/8/1

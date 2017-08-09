@@ -1,4 +1,4 @@
-package cn.hlq.iosdialog.manager;
+package cn.hlq.struggle.manager;
 
 import android.app.DialogFragment;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.ViewStub;
 import android.view.Window;
 import android.widget.TextView;
 
-import cn.hlq.iosdialog.R;
+import cn.hlq.struggle.R;
 
 /**
  * 提示框 Created by HLQ on 2017/6/15
@@ -26,16 +26,21 @@ public class HintDialog extends DialogFragment {
      * 确认回调
      */
     private HintConfirmCallback confirmCallback;
+
     /**
      * 取消回调
      */
     private HintCancelCallback cancelCallback;
+
     /**
      * 单选回调
      */
     private HintSingleCallback singleCallback;
 
-    private boolean isSingleButton = false; // 是否启用单个按钮
+    /**
+     * 是否启用单个按钮
+     */
+    private boolean isSingleButton = false;
 
     /**
      * 默认点击外面无效
@@ -57,8 +62,8 @@ public class HintDialog extends DialogFragment {
     /**
      * 设置确定按钮内容
      *
-     * @param confirmMsg
-     * @return
+     * @param confirmMsg 确定按钮内容
+     * @return HintDialog
      */
     public HintDialog setOnConfirmBtnText(String confirmMsg) {
         this.confirm = confirmMsg;
@@ -68,8 +73,8 @@ public class HintDialog extends DialogFragment {
     /**
      * 设置取消按钮内容
      *
-     * @param cancelMsg
-     * @return
+     * @param cancelMsg 取消按钮内容
+     * @return HintDialog
      */
     public HintDialog setOnCancelBtnText(String cancelMsg) {
         this.cancel = cancelMsg;
@@ -80,7 +85,7 @@ public class HintDialog extends DialogFragment {
      * 设置是否启用单个按钮
      *
      * @param isSingle
-     * @return
+     * @return HintDialog
      */
     public HintDialog setIsSingleButton(boolean isSingle) {
         this.isSingleButton = isSingle;
@@ -91,7 +96,7 @@ public class HintDialog extends DialogFragment {
      * 设置是否允许点击外面
      *
      * @param onTouchOutside
-     * @return
+     * @return HintDialog
      */
     public HintDialog setOnTouchOutside(boolean onTouchOutside) {
         this.onTouchOutside = onTouchOutside;

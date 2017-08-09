@@ -7,10 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import cn.hlq.iosdialog.manager.HintDialog;
-import cn.hlq.iosdialog.manager.IOSLoadingDialog;
-import cn.hlq.iosdialog.manager.LoadingDialog;
-import cn.hlq.iosdialog.manager.PhotoDialog;
+import cn.hlq.struggle.manager.HintDialog;
+import cn.hlq.struggle.manager.IOSLoadingDialog;
+import cn.hlq.struggle.manager.LoadingDialog;
+import cn.hlq.struggle.manager.PhotoDialog;
 
 public class MainActivity extends Activity {
 
